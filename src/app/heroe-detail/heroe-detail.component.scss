@@ -1,0 +1,46 @@
+.hero-name {
+    background-color: darkblue;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0 0 6px 6px;
+    position: relative;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-thumbnail {
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+}
+
+.card {
+    width: 16rem;
+    margin: auto;
+}
+
+.back-btn {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.hero-id {
+    margin: 5px 0 0 0;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.hero-description {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 0;
+    letter-spacing: .5pt;
+}

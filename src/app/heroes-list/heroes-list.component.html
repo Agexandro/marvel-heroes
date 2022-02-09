@@ -1,0 +1,10 @@
+<ul>
+    <li class="heroes-list" *ngFor="let heroe of heroes">
+        <a routerLink="/detail/{{heroe.id}}">
+            <img class="hero-thumbnail" src="{{heroe.thumbnail.path}}.{{heroe.thumbnail.extension}}"
+                alt="{{heroe.name}}">
+            <span class="hero-name" routerLink="/detail/{{heroe.id}}">{{heroe.name}}</span>
+        </a>
+    </li>
+</ul>
+<br>

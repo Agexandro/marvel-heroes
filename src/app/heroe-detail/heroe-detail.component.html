@@ -1,0 +1,8 @@
+<div class="card" *ngIf="heroe">
+    <img class="hero-thumbnail" src="{{heroe.thumbnail.path}}.{{heroe.thumbnail.extension}}" alt="{{heroe.name}}">
+    <span class="hero-name">{{heroe.name}}</span>
+    <p class="hero-description" >{{heroe.description}}</p>
+    <p class="hero-id">Heroe id: {{heroe.id}}</p>
+    <br>
+    <button class="back-btn" (click)="goBack()">Go back</button>
+</div>

@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px 10px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: space-evenly;
+}
+
+.heroes-list {
+    box-shadow: 2px 2px 2px lightgrey;
+    border-radius: 6px;
+}
+
+.heroes-list:hover {
+    position: relative;
+    bottom: 6px;
+}
+
+.hero-name {
+    background-color: darkblue;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0 0 6px 6px;
+    position: relative;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-thumbnail {
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+}
